@@ -43,7 +43,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <Link href="/login" className='px-7 py-2 rounded-xl text-green-50 bg-green-700 focus:ring focus:ring-amber-200'>Login</Link>
+            <Link href="/login" className='px-7 py-2 rounded-xl text-green-50 bg-green-700 focus:ring focus:ring-green-800'>Login</Link>
           </li>
         </ul>
       </nav>
