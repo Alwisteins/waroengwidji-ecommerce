@@ -6,7 +6,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${rubik.className}`}
     >
-      <section className="flex items-center mt-[-85px]">
+      <section className="flex items-center mt-[-85px] bg-slate-200">
         <article>
           <header className="mb-3">
             <h1 className="font-bold text-6xl">
@@ -21,7 +21,7 @@ export default function Home() {
               fingertips.
             </p>
           </article>
-          <button>Explore Now</button>
+          <button className='px-7 py-2 mt-3 rounded-xl text-green-50 bg-green-700 focus:ring focus:ring-green-800'>Explore Now</button>
         </article>
         <figure>
           <Image
