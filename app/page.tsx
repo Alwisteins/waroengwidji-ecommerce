@@ -6,9 +6,9 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${rubik.className}`}
     >
-      <section className="flex items-center mt-[-85px] bg-slate-200">
+      <section className="flex items-center mt-[-85px]">
         <article>
-          <header className="mb-3">
+          <header className="mb-5">
             <h1 className="font-bold text-6xl">
               Planting Smiles, One Order at a Time
             </h1>
@@ -21,7 +21,7 @@ export default function Home() {
               fingertips.
             </p>
           </article>
-          <button className='px-7 py-2 mt-3 rounded-xl text-green-50 bg-green-700 focus:ring focus:ring-green-800'>Explore Now</button>
+          <button className='px-7 py-2 mt-5 rounded-xl text-green-50 bg-green-700 focus:ring focus:ring-green-800'>Explore Now</button>
         </article>
         <figure>
           <Image
